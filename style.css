@@ -158,6 +158,8 @@ body {
   background-color: #f2f2f2;
 }
 
+
+
 .cat-reference dt{
   margin: 0;
   margin-bottom: 10px;
@@ -211,7 +213,18 @@ body {
   color: rgba(141, 116, 90, 0.3);
 }
 
+.reviews {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
 .review-item {
+  float: left;
+  width: 377px;
+  margin: 0;
+  margin-right: 80px;
+  padding: 0;
+  padding-left: 50px;
   border-left: 3px solid #a38b70;
 }
 
@@ -221,7 +234,28 @@ body {
 }
 
 .popular-and-price {
+  padding-top: 70px;
+  padding-bottom: 90px;
   background-color: #f2f2f2;
+}
+
+.popular-items {
+  margin-bottom: 50px;
+}
+
+.catalog-item {
+  float: left;
+  width: 308px;
+  margin-right: 48px;
+}
+
+.catalog-item:last-child {
+  margin-right: 0;
+}
+
+.catalog-item img {
+  max-width: 100%;
+  height: auto;
 }
 
 .catalog-item h3 {
@@ -260,7 +294,14 @@ body {
   color: #000000;
 }
 
+.feedback {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
 .feedback-form {
+  width: 630px;
+  padding-right: 390px;
   background-image: url("img/write.jpg");
   background-repeat: no-repeat;
   background-position: 100% 40px;
@@ -300,12 +341,34 @@ body {
 }
 
 .page-footer {
-  margin-top: 20px;
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+.footer-top {
+  margin-bottom: 45px;
+}
+
+.footer-logo {
+  float: left;
+  width: 205px;
+  height: 55px;
+}
+
+.footer-middle {
+  margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 .footer-middle,
 .footer-bottom {
   border-top: 1px solid #5e5e5e;
+}
+
+.footer-menu {
+  float: left;
+  width: 150px;
+  margin-right: 20px;
 }
 
 .footer-menu h3 {
@@ -332,6 +395,15 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.footer-bottom {
+  padding-top: 50px;
+}
+
+.footer-social {
+  float: left;
+  width: 490px;
+}
+
 .footer-social b {
   font-weight: bold;
   font-size: 24px;
@@ -341,6 +413,8 @@ body {
 .footer-copyright {
   color: #ffffff;
   text-transform: uppercase;
+  float: right;
+  width: 236px;
 }
 .footer-copyright a{
   color: #ffffff;
